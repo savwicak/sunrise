@@ -8,9 +8,6 @@
 
 body{
     background:#111;
-    background-image:
-        linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px);
     background-size:24px 24px;
     padding:40px;
 }
@@ -22,6 +19,7 @@ main{
 
 header{
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .layout{
