@@ -20,6 +20,10 @@ main{
     margin:auto;
 }
 
+header{
+    margin-bottom: 40px;
+}
+
 .layout{
     display:grid;
 
@@ -201,4 +205,18 @@ li a:hover {
 .game:hover p{
     transform:translateY(-5px);
     color:#fff;
+}
+
+footer{
+    margin-top:50px;
+    padding:20px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+footer h2{
+    font-size:18px;
+    font-weight:normal;
 }
